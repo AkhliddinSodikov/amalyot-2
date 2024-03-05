@@ -1,0 +1,22 @@
+.grid{
+    background-color: red;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(3 lfr);
+    grid-gap: 10px;
+
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box img{
+    display:-webkit-box;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
